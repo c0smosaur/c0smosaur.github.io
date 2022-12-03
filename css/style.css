@@ -1,0 +1,97 @@
+body {
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('../RobotoSlab-SemiBold.ttf') format('truetype');
+}
+
+#all{
+    text-align: center;
+    font-family: 'Roboto Slab';
+}
+
+#all::before {
+    content: "";
+    opacity: 0.4;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #000;
+}
+
+#login-form input, #todo-form input{
+    font-size: 1em;
+    margin: 1% 0% 1% 0%;
+    font-family: 'Roboto Slab';
+    opacity: 1;
+    position: relative;
+}
+
+#clock{
+    display: inline-block;
+    font-size: 8em;
+    color: #FFFFFF;
+    width: 5em;
+    border-radius: 1em;
+    opacity: 1;
+    position: relative;
+}
+
+#calendar {
+    font-size: 1.2em;
+    color: #FFFFFF;
+    position: relative;
+}
+
+#greeting, #quotes {
+    color:#FFFFFF;
+    opacity: 1;
+    position: relative;
+}
+
+#weather{
+    color:#FFFFFF;
+    margin: 1% 0% 0% 0%;
+    opacity: 1;
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+.done {
+    color: #C6C6C6;
+    text-decoration: line-through;
+    opacity: 1;
+}
+
+#listTitle{
+    color: #FFFFFF;
+    font-size: 1.5em;
+    font-weight: 600;
+    position: relative;
+    text-decoration: underline;
+}
+
+#todo-list{
+    color: #FFFFFF;
+    list-style: none;
+    position: relative;
+}
+
+button {
+    border: 0;
+    outline: 0;
+    border-radius: 1%;
+    background: transparent;
+    color:#FFFFFF;
+}
